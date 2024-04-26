@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+@layer base {
+  li {
+    @apply p-4;
+  }
+
+  button {
+    @apply text-white border bg-black border-black
+    hover:bg-transparent hover:text-black rounded-md;
+  }
+}
